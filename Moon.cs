@@ -7,7 +7,7 @@
         {
             //distance=√((x_2-x_1)²+(y_2-y_1)²)
             if (Pos != null && planet.Pos != null)
-                return Math.Sqrt((Pos.X - planet.Pos.X) ^ 2 + (Pos.Y - planet.Pos.Y) ^ 2);
+                return Math.Sqrt(Math.Pow(Pos.X - planet.Pos.X, 2) + Math.Pow(Pos.Y - planet.Pos.Y, 2));
             else return null;
         }
     }

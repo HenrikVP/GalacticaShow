@@ -1,5 +1,11 @@
 ﻿using GalacticaShow;
 
+//d=√((x_2-x_1)²+(y_2-y_1)²) 
+
+//double d = Math.Sqrt(Math.Pow(1-0, 2) + Math.Pow(0-0, 2));
+//Console.WriteLine(d);
+//return;
+
 Data data = new();
 
 if (data.Sun.PlanetList == null) return;
