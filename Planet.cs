@@ -11,7 +11,7 @@
         public double? Distance()
         {
             if (Pos != null)
-                return Math.Sqrt(Pos.X ^ 2 + Pos.Y ^ 2);
+                return Math.Sqrt(((Math.Abs(Pos.X) ^ 2) + (Math.Abs(Pos.Y) ^ 2)));
             else return null;
         }
     }
